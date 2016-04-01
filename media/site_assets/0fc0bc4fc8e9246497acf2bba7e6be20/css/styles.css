@@ -16,7 +16,7 @@ section.content a.btn:hover {
 }
 
 header {
-    background: #8EA06E url(../../../../media/site_assets/0fc0bc4fc8e9246497acf2bba7e6be20/assets/tree_bark50.png) top center repeat;
+    background: #8EA06E url(../assets/tree_bark50.png) top center repeat;
     padding: 12px 0;
     padding-top: 73px
 }

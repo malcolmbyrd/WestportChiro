@@ -1,0 +1,32 @@
+.carousel {
+    width: 100%;
+    position: relative
+}
+
+.carousel .carousel-item {
+    display: none;
+    z-index: 999
+}
+
+.carousel .carousel-active {
+    display: block;
+    z-index: 1000
+}
+
+.carousel .carousel-nav {
+    float: left
+}
+
+.carousel .carousel-nav > a.prev {
+    float: left;
+    z-index: 1001
+}
+
+.carousel .carousel-nav > a.next {
+    float: right;
+    z-index: 1001
+}
+
+.carousel .carousel-nav:nth-child(2) {
+    display: none
+}
