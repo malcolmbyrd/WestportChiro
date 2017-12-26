@@ -294,7 +294,8 @@ nav ul.primary li a {
 }
 
 nav ul.primary li a span.arrow {
-    display: none
+    display: none;
+    margin-left: 3px;
 }
 
 nav ul.primary li a:hover, nav ul.primary li.active a {
